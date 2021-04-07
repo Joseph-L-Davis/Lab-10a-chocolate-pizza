@@ -153,6 +153,17 @@ header img {
     width: 20px;
 }
 
+#vanessa {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#name {
+    font-weight: bolder;
+    margin-left: 5px;
+}
+
 footer {
     display: flex;
     justify-content: flex-end;
