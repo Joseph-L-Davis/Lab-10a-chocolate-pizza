@@ -24,7 +24,7 @@ body {
 main {
     padding: 5%;
     display: grid;
-    grid-template-columns: 1f;
+    grid-template-columns: 10% 80% 10%;
     grid-template-rows: 10% 50% 20% 20%;
     margin-bottom: calc(var(--footer-height));
     margin-left: 50px;
@@ -43,9 +43,7 @@ main {
     color: rgb(169, 170, 170);
 }
 
-#print {
-    justify-content: flex-end;
-}
+#print {}
 
 
 header {
@@ -61,13 +59,19 @@ header {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+    grid-column: 2;
+    grid-row: 2;
+    margin-left: 130px;
 }
 
 .print {
-    grid-column: ;
+    grid-column: 2;
+    grid-row: 2;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-end;
+    margin-right: 75px;
+    margin-top: 30px;
     font-size: small;
     color: rgb(169, 170, 170);
 }
@@ -76,7 +80,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    grid-column: 2;
+    grid-row: 3;
     /* margin-top: 50px; */
+}
+
+.words {
+    grid-column: 2;
+    grid-row: 8;
 }
 
 .gutter-left {
@@ -107,17 +118,8 @@ h2 {
     margin-right: 20px;
 }
 
-.main-logo {
-    animation: pulse 5s infinite ease-in-out;
-}
 
-/* header img {
-    height: var(--header-height); */
-}
 
-p {
-    margin: var(--gutter);
-}
 
 footer {
     position: fixed;
