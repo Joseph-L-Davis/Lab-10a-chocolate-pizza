@@ -154,6 +154,13 @@ header img {
 }
 
 #vanessa {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    height: 100px;
+}
+
+#vanessa img {
+    grid-row: 1;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -162,6 +169,25 @@ header img {
 #name {
     font-weight: bolder;
     margin-left: 5px;
+    grid-column: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.foot {
+    margin-left: 80px;
+    max-width: 600px;
+    color: rgb(177, 174, 174);
+    grid-column: 1;
+}
+
+button {
+    grid-column: 4;
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    margin-left: 100px;
 }
 
 footer {
