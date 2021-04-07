@@ -23,12 +23,12 @@ body {
 
 main {
     padding: 5%;
-    display: flex;
-    align-items: center;
-    grid-template-columns: 1fr;
+    display: grid;
+    grid-template-columns: 1f;
     grid-template-rows: 10% 50% 20% 20%;
     margin-bottom: calc(var(--footer-height));
     margin-left: 50px;
+    margin-right: 50px;
 }
 
 
@@ -37,6 +37,10 @@ main {
 
     font-size: 50px;
     font-weight: bolder;
+}
+
+#pizza-date {
+    color: rgb(169, 170, 170);
 }
 
 #print {
@@ -53,7 +57,27 @@ header {
     box-shadow: var(--shadow);
 }
 
+.title {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
 
+.print {
+    grid-column: ;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: small;
+    color: rgb(169, 170, 170);
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 50px; */
+}
 
 .gutter-left {
     display: flex;
