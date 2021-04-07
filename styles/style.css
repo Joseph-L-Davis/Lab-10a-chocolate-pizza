@@ -153,6 +153,51 @@ header img {
     width: 20px;
 }
 
+#vanessa {
+    display: grid;
+    grid-template-columns: 100px 200px 200px 200px;
+    height: 100px;
+}
+
+#vanessa img {
+    grid-row: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#name {
+    font-weight: bolder;
+    grid-column: 2;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 50px;
+}
+
+.foot {
+    max-width: 600px;
+    color: rgb(177, 174, 174);
+    grid-column-start: 2;
+    grid-column-end: 4;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+button {
+    grid-column: 4;
+    height: 100px;
+    width: 150px;
+    background-color: orange;
+    margin-left: 100px;
+    font-size: 1.5rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
 footer {
     display: flex;
     justify-content: flex-end;
