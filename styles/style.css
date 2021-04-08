@@ -78,6 +78,48 @@ header {
     margin-right: 5px;
 }
 
+.list {
+    position: relative;
+    text-align: center;
+
+}
+
+#milk {
+    position: absolute;
+    bottom: 540px;
+    left: 100px;
+}
+
+#marscapone {
+    position: absolute;
+    bottom: 240px;
+    left: 100px;
+}
+
+#milk {
+    position: absolute;
+    bottom: 240px;
+    left: 100px;
+}
+
+#milk {
+    position: absolute;
+    bottom: 240px;
+    left: 100px;
+}
+
+#milk {
+    position: absolute;
+    bottom: 240px;
+    left: 100px;
+}
+
+#milk {
+    position: absolute;
+    bottom: 240px;
+    left: 100px;
+}
+
 #delicious-font {
     font-size: small;
     color: rgb(169, 170, 170);
