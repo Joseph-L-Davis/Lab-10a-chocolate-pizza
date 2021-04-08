@@ -78,6 +78,88 @@ header {
     margin-right: 5px;
 }
 
+.list {
+    position: relative;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+
+}
+
+
+
+#milk {
+    position: absolute;
+    bottom: 240px;
+    left: 100px;
+}
+
+#mascarpone {
+    position: absolute;
+    bottom: 215px;
+    left: 100px;
+}
+
+#salt {
+    position: absolute;
+    bottom: 190px;
+    left: 100px;
+}
+
+#figs {
+    position: absolute;
+    bottom: 165px;
+    left: 100px;
+}
+
+#sugar {
+    position: absolute;
+    bottom: 140px;
+    left: 100px;
+}
+
+#water {
+    position: absolute;
+    bottom: 115px;
+    left: 100px;
+}
+
+#cream {
+    position: absolute;
+    bottom: 240px;
+    right: 200px;
+}
+
+#sugar-2 {
+    position: absolute;
+    bottom: 215px;
+    right: 239px;
+}
+
+#egg {
+    position: absolute;
+    bottom: 190px;
+    right: 328px;
+}
+
+#lemon {
+    position: absolute;
+    bottom: 165px;
+    right: 294px;
+}
+
+#butter {
+    position: absolute;
+    bottom: 140px;
+    right: 301px;
+}
+
+#pecans {
+    position: absolute;
+    bottom: 115px;
+    right: 151px;
+}
+
 #delicious-font {
     font-size: small;
     color: rgb(169, 170, 170);
