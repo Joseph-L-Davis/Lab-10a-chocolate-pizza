@@ -81,20 +81,12 @@ header {
 .list {
     position: relative;
     text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
 
 }
 
-#milk {
-    position: absolute;
-    bottom: 540px;
-    left: 100px;
-}
 
-#marscapone {
-    position: absolute;
-    bottom: 240px;
-    left: 100px;
-}
 
 #milk {
     position: absolute;
@@ -102,22 +94,70 @@ header {
     left: 100px;
 }
 
-#milk {
+#mascarpone {
     position: absolute;
-    bottom: 240px;
+    bottom: 215px;
     left: 100px;
 }
 
-#milk {
+#salt {
     position: absolute;
-    bottom: 240px;
+    bottom: 190px;
     left: 100px;
 }
 
-#milk {
+#figs {
+    position: absolute;
+    bottom: 165px;
+    left: 100px;
+}
+
+#sugar {
+    position: absolute;
+    bottom: 140px;
+    left: 100px;
+}
+
+#water {
+    position: absolute;
+    bottom: 115px;
+    left: 100px;
+}
+
+#cream {
     position: absolute;
     bottom: 240px;
-    left: 100px;
+    right: 200px;
+}
+
+#sugar-2 {
+    position: absolute;
+    bottom: 215px;
+    right: 239px;
+}
+
+#egg {
+    position: absolute;
+    bottom: 190px;
+    right: 328px;
+}
+
+#lemon {
+    position: absolute;
+    bottom: 165px;
+    right: 294px;
+}
+
+#butter {
+    position: absolute;
+    bottom: 140px;
+    right: 301px;
+}
+
+#pecans {
+    position: absolute;
+    bottom: 115px;
+    right: 151px;
 }
 
 #delicious-font {
