@@ -36,8 +36,6 @@ main {
     justify-content: center;
 }
 
-
-
 #pizza-title {
     display: flex;
     align-items: center;
@@ -49,7 +47,6 @@ main {
 #pizza-date {
     color: rgb(169, 170, 170);
 }
-
 
 header {
     grid-column: 2;
@@ -85,8 +82,6 @@ header {
     font-size: 1.5rem;
 
 }
-
-
 
 #milk {
     position: absolute;
@@ -296,9 +291,6 @@ h2 {
 .gutter-right {
     margin-right: 20px;
 }
-
-
-
 
 footer {
     position: fixed;
